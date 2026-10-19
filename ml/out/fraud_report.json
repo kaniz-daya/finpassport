@@ -1,0 +1,62 @@
+{
+  "local_A": {
+    "roc_auc": 0.8900636752136754,
+    "pr_auc": 0.4600186999336998,
+    "recall_at_1pct_fpr": 0.28055555555555556,
+    "by_pattern": {
+      "tuition_scam": 0.675,
+      "takeover": 0.105,
+      "mule": 0.18
+    }
+  },
+  "local_B": {
+    "roc_auc": 0.8838149572649573,
+    "pr_auc": 0.4347447798850643,
+    "recall_at_1pct_fpr": 0.2861111111111111,
+    "by_pattern": {
+      "tuition_scam": 0.34,
+      "takeover": 0.755,
+      "mule": 0.0075
+    }
+  },
+  "local_C": {
+    "roc_auc": 0.8816931623931624,
+    "pr_auc": 0.41946567771583027,
+    "recall_at_1pct_fpr": 0.25555555555555554,
+    "by_pattern": {
+      "tuition_scam": 0.0475,
+      "takeover": 0.28,
+      "mule": 0.5925
+    }
+  },
+  "fedavg": {
+    "roc_auc": 0.9521324786324786,
+    "pr_auc": 0.6846624453942868,
+    "recall_at_1pct_fpr": 0.5055555555555555,
+    "by_pattern": {
+      "tuition_scam": 0.65,
+      "takeover": 0.5825,
+      "mule": 0.4925
+    }
+  },
+  "fedavg_dp": {
+    "roc_auc": 0.9476594017094017,
+    "pr_auc": 0.6619137515183152,
+    "recall_at_1pct_fpr": 0.475,
+    "by_pattern": {
+      "tuition_scam": 0.595,
+      "takeover": 0.55,
+      "mule": 0.4125
+    }
+  },
+  "pooled": {
+    "roc_auc": 0.9519072649572649,
+    "pr_auc": 0.6819408572316682,
+    "recall_at_1pct_fpr": 0.5444444444444444,
+    "by_pattern": {
+      "tuition_scam": 0.5475,
+      "takeover": 0.6575,
+      "mule": 0.525
+    }
+  }
+}
